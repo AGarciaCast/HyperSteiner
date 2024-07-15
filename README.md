@@ -2,7 +2,7 @@
 This repository contains the code for the paper called **"HyperSteiner: Computing Heuristic Hyperbolic Steiner Minimal Trees"**.
 
 # Abstract
-We propose HyperSteiner—an efficient heuristic algorithm for computing Steiner minimal trees in the hyperbolic space. Our method extends the Euclidean Smith-Lee-Liebman algorithm, which is grounded in a divide-and-conquer approach involving the Delaunay triangulation. Our central idea is rephrasing Steiner tree problems with three terminals as a system of equations in the Klein-Beltrami model. Since hyperbolic geometry is well-suited for representing hierarchical data, we explore applications to hierarchy discovery. Results show that HyperSteiner performs better than the Minimum Spanning Tree and, for large datasets, is more efficient than Neighbor Joining.
+We propose HyperSteiner — an efficient heuristic algorithm for computing Steiner minimal trees in the hyperbolic space. Hypersteiner extends the Euclidean Smith-Lee-Liebman algorithm, which is grounded in a divide-and-conquer approach involving the Delaunay triangulation. The central idea is rephrasing Steiner tree problems with three terminals as a system of equations in the Klein-Beltrami model. Motivated by the fact that hyperbolic geometry is well-suited for representing hierarchies, we explore applications to hierarchy discovery in data. Results show that HyperSteiner infers more realistic hierarchies than the Minimum Spanning Tree and is more scalable to large datasets than Neighbor Joining.
 
 # Information
 - The code for the method is in `src/utils`. <br />

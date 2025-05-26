@@ -8,3 +8,21 @@ We propose HyperSteiner — an efficient heuristic algorithm for computing Stein
 - The code for the method is in `src/utils`. <br />
 - The synthetic and real experiments can be reproduced using respectively the notebooks `syntheticExperiments.ipynb` and `realExperiments.ipynb`. <br />
 - The folder `Data` contains the hyperbolic representation of the Planaria dataset in the Klein-Beltrami disk and the corresponding groundtruth cell age. This is used for the real-life experiments.
+
+
+
+# Setup
+
+
+To install the requirements, we use conda. We recommend creating a new environment for the project.
+```
+conda create --name "hyper" python=3.8
+conda activate hyper
+```
+
+Install the relevant dependencies.
+```
+./setup_phcp.sh 
+pip install -r requirements.txt
+conda install biotite==0.35.0
+```

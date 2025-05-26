@@ -5,6 +5,7 @@ cd QD
 ./configure CXX=/usr/bin/g++ CXXFLAGS="-fPIC -O3"
 make
 sudo make install
+rm -rf .git
 cd ..
 
 sudo apt-get -y install gnat

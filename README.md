@@ -24,5 +24,5 @@ Install the relevant dependencies.
 ```
 ./setup_phcp.sh 
 pip install -r requirements.txt
-conda install biotite==0.35.0
+conda install -c conda-forge biotite==0.35.0
 ```
